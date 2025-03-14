@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 5713202280375557945}
   - component: {fileID: 8363259594401992504}
   - component: {fileID: 7890321825599717947}
+  - component: {fileID: 4685153685525477117}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -164,7 +165,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.012806296, y: 1.4304441}
+  m_Offset: {x: -0.012806296, y: 1.4591048}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -175,7 +176,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3529067, y: 2.9106586}
+  m_Size: {x: 1.3529067, y: 2.8533373}
   m_EdgeRadius: 0
 --- !u!50 &5713202280375557945
 Rigidbody2D:
@@ -247,6 +248,27 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!95 &4685153685525477117
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2226241300650509033}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8f6210553902b3e47be2d5021db5b9a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5579655459863788346
 GameObject:
   m_ObjectHideFlags: 0
