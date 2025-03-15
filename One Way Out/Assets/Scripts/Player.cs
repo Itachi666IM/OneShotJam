@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     Vector2 playerMovement;
     Rigidbody2D myRigidbody;
 
+    public bool canMove;
     private void Awake()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
@@ -21,7 +22,10 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        Run();
+        if(canMove)
+        {
+            Run();
+        }
     }
 
     void Run()
