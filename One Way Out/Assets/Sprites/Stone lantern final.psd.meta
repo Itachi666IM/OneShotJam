@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: dc72392465dbe19469501b023635c11f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 1115, y: 245, z: 72, w: 73}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stone lantern final_0
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 256
+        width: 739
+        height: 737
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56782b67eaf4b924984806566fbb8750
+      internalID: -1199696972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 429, y: 455}
+      - {x: 164, y: 349}
+      - {x: 164, y: -271}
+      - {x: 197, y: -286}
+      - {x: 878, y: -286}
+      - {x: 878, y: 327}
+      - {x: 720, y: 455}
+    - - {x: 466, y: 125}
+      - {x: 465, y: 146}
+      - {x: 466, y: 147}
+      - {x: 466, y: 150}
+      - {x: 468, y: 154}
+      - {x: 469, y: 161}
+      - {x: 467, y: 159}
+      - {x: 467, y: 153}
+      - {x: 468, y: 152}
+      - {x: 468, y: 123}
+      - {x: 467, y: 122}
+      - {x: 468, y: 119}
+      - {x: 469, y: 120}
+    - - {x: 591, y: 127}
+      - {x: 591, y: 145}
+      - {x: 590, y: 146}
+      - {x: 590, y: 153}
+      - {x: 596, y: 147}
+      - {x: 596, y: 142}
+      - {x: 597, y: 141}
+      - {x: 597, y: 131}
+      - {x: 592, y: 125}
+      - {x: 593, y: 125}
+      - {x: 593, y: 126}
+    - - {x: 343, y: 144}
+      - {x: 345, y: 142}
+      - {x: 348, y: 143}
+      - {x: 348, y: 152}
+      - {x: 346, y: 154}
+      - {x: 343, y: 153}
+    - - {x: 344, y: 162}
+      - {x: 344, y: 158}
+      - {x: 346, y: 156}
+      - {x: 349, y: 157}
+      - {x: 350, y: 160}
+      - {x: 350, y: 164}
+      - {x: 347, y: 165}
+    - - {x: 346, y: 176}
+      - {x: 346, y: 169}
+      - {x: 349, y: 169}
+      - {x: 352, y: 171}
+      - {x: 353, y: 178}
+      - {x: 351, y: 180}
+      - {x: 348, y: 179}
+    - - {x: 859, y: 181}
+      - {x: 854, y: 178}
+      - {x: 856, y: 175}
+      - {x: 862, y: 175}
+      - {x: 866, y: 179}
+      - {x: 866, y: 181}
+      - {x: 863, y: 182}
+    - - {x: 889, y: 259}
+      - {x: 889, y: 257}
+      - {x: 891, y: 255}
+      - {x: 892, y: 255}
+      - {x: 895, y: 258}
+      - {x: 894, y: 261}
+      - {x: 891, y: 261}
+    - - {x: 903, y: 261}
+      - {x: 899, y: 258}
+      - {x: 900, y: 255}
+      - {x: 905, y: 255}
+      - {x: 907, y: 257}
+      - {x: 907, y: 258}
+      - {x: 904, y: 261}
+    - - {x: 880, y: 259}
+      - {x: 881, y: 256}
+      - {x: 887, y: 256}
+      - {x: 889, y: 258}
+      - {x: 888, y: 261}
+      - {x: 882, y: 261}
+    - - {x: 792, y: 355}
+      - {x: 790, y: 353}
+      - {x: 791, y: 349}
+      - {x: 799, y: 345}
+      - {x: 803, y: 345}
+      - {x: 803, y: 349}
+      - {x: 794, y: 355}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Stone lantern final_0: -1199696972
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
