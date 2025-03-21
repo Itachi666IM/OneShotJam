@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Player : MonoBehaviour
     Animator anim;
 
     public bool canMove;
+
+    
     private void Awake()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
@@ -43,5 +46,10 @@ public class Player : MonoBehaviour
         {
             anim.SetBool("isRunning", false);
         }
+    }
+
+    public void MenuToPlay()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
