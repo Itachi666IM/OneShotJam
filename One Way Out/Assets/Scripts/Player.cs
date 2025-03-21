@@ -8,11 +8,13 @@ public class Player : MonoBehaviour
     public float speed;
     Vector2 playerMovement;
     Rigidbody2D myRigidbody;
+    Animator anim;
 
     public bool canMove;
     private void Awake()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void OnMove(InputValue value)
@@ -32,5 +34,14 @@ public class Player : MonoBehaviour
     {
         Vector2 playerVelocity = new Vector2(playerMovement.x * speed, myRigidbody.velocity.y);
         myRigidbody.velocity = playerVelocity;
+
+        if(Mathf.Abs(playerVelocity.x)>0)
+        {
+            anim.SetBool("isRunning", true);
+        }
+        else
+        {
+            anim.SetBool("isRunning", false);
+        }
     }
 }
