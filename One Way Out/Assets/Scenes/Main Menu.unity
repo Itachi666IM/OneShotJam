@@ -8513,7 +8513,7 @@ SpriteRenderer:
   m_SortingLayerID: 1500319855
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -1646693923, guid: f9ed9589574c459469385e1387975a11, type: 3}
   m_Color: {r: 0.6754716, g: 0.6754716, b: 0.6754716, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8533,8 +8533,8 @@ Transform:
   m_GameObject: {fileID: 1763968984}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.43, y: -4.63, z: 0}
-  m_LocalScale: {x: 5.83, y: 1, z: 1}
+  m_LocalPosition: {x: 3.7049, y: -4.6381, z: 0}
+  m_LocalScale: {x: 0.5299864, y: 0.32105064, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -8602,14 +8602,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 12, y: 3.23}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 12.169314, y: 3.139378}
   m_EdgeRadius: 0
 --- !u!1 &1892244264
 GameObject:
@@ -8746,11 +8746,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1170420848861149448, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.27892023
+      value: 0.27891937
       objectReference: {fileID: 0}
     - target: {fileID: 1170420848861149448, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.9603143
+      value: -0.9603146
       objectReference: {fileID: 0}
     - target: {fileID: 1285743475405983586, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8758,7 +8758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285743475405983586, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000086426695
+      value: -0.0000003278254
       objectReference: {fileID: 0}
     - target: {fileID: 2226241300650509033, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_Name
@@ -8818,11 +8818,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4986634739102417420, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9502173
+      value: 0.95021796
       objectReference: {fileID: 0}
     - target: {fileID: 4986634739102417420, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.31158802
+      value: -0.31158602
       objectReference: {fileID: 0}
     - target: {fileID: 7048102039775382447, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.w
