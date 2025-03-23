@@ -132,6 +132,7 @@ Transform:
   m_Children:
   - {fileID: 8981617277767301780}
   - {fileID: 7185631472649947116}
+  - {fileID: 6898267370721369929}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &6511546232024845532
@@ -191,10 +192,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 100
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -219,6 +220,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  jumpSpeed: 15
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  groundCheck: {fileID: 6898267370721369929}
   canMove: 1
 --- !u!114 &7890321825599717947
 MonoBehaviour:
@@ -301,6 +307,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5695297183077012368}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6114371704801431374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6898267370721369929}
+  m_Layer: 7
+  m_Name: Ground Check
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6898267370721369929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6114371704801431374}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4198923974414881146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6784994821503207933
 GameObject:
@@ -537,7 +574,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8586708965290845119}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.00000086426695, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0000003278254, w: 1}
   m_LocalPosition: {x: 0.247, y: -0.007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -674,11 +711,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3368374243578593606, guid: f1905b84ee21fb14190eddcaa8b80e93, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9502173
+      value: 0.95021796
       objectReference: {fileID: 0}
     - target: {fileID: 3368374243578593606, guid: f1905b84ee21fb14190eddcaa8b80e93, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.31158802
+      value: -0.31158602
       objectReference: {fileID: 0}
     - target: {fileID: 5302175833303538950, guid: f1905b84ee21fb14190eddcaa8b80e93, type: 3}
       propertyPath: m_LocalPosition.x
@@ -754,7 +791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8913996778069899842, guid: f1905b84ee21fb14190eddcaa8b80e93, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.27892023
+      value: 0.27891937
       objectReference: {fileID: 0}
     - target: {fileID: 8913996778069899842, guid: f1905b84ee21fb14190eddcaa8b80e93, type: 3}
       propertyPath: m_LocalRotation.y
@@ -762,15 +799,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8913996778069899842, guid: f1905b84ee21fb14190eddcaa8b80e93, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.9603143
+      value: -0.9603146
       objectReference: {fileID: 0}
     - target: {fileID: 8913996778069899842, guid: f1905b84ee21fb14190eddcaa8b80e93, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8913996778069899842, guid: f1905b84ee21fb14190eddcaa8b80e93, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -147.608
+      value: -147.609
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
