@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
         if(canMove)
         {
             Run();
-            isGrounded = Physics2D.OverlapCircle(groundCheck.position,0.2f,groundLayer);
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position,0.5f,groundLayer);
         }
         else
         {
