@@ -16,11 +16,17 @@ public class Player : MonoBehaviour
 
     public bool canMove;
     bool isGrounded;
+
+    public bool isTimeSlowed;
+    public float slowDownTime;
+    public float slowedDownPlayerSpeed;
+    float defaultSpeed;
     
     private void Awake()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        defaultSpeed = speed;
     }
 
     void OnMove(InputValue value)
@@ -50,6 +56,15 @@ public class Player : MonoBehaviour
             isGrounded=false;
         }
 
+        if(isTimeSlowed)
+        {
+            StartCoroutine(SlowDownTime());
+            speed = slowedDownPlayerSpeed;
+        }
+        else
+        {
+            speed = defaultSpeed;
+        }
     }
 
     void Run()
@@ -70,5 +85,13 @@ public class Player : MonoBehaviour
     public void MenuToPlay()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    IEnumerator SlowDownTime()
+    {
+        Time.timeScale = 0.5f;
+        yield return new WaitForSeconds(slowDownTime);
+        isTimeSlowed = false;
+        Time.timeScale = 1f;
     }
 }

@@ -226,6 +226,9 @@ MonoBehaviour:
     m_Bits: 256
   groundCheck: {fileID: 6898267370721369929}
   canMove: 1
+  isTimeSlowed: 0
+  slowDownTime: 2
+  slowedDownPlayerSpeed: 10
 --- !u!114 &7890321825599717947
 MonoBehaviour:
   m_ObjectHideFlags: 0
