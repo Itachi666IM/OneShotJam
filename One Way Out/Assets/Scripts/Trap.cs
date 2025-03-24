@@ -9,6 +9,9 @@ public class Trap : MonoBehaviour
     public Transform pointA;
     public Transform pointB;
     bool changeDirection;
+
+    public AudioClip trapSound;
+    public AudioSource audioSource;
     
     void Update()
     {
@@ -39,7 +42,13 @@ public class Trap : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            audioSource.PlayOneShot(trapSound);
+            Invoke(nameof(RestartLevel), 0.5f);
         }
+    }
+
+    void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

@@ -94,6 +94,8 @@ MonoBehaviour:
   speed: 2
   pointA: {fileID: 0}
   pointB: {fileID: 0}
+  trapSound: {fileID: 8300000, guid: 1189688baec345e4c88c5969eb562243, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &4194334131519318096
 GameObject:
   m_ObjectHideFlags: 0

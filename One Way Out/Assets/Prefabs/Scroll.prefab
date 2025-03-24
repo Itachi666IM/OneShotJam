@@ -132,6 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portal: {fileID: 0}
+  scrollSound: {fileID: 8300000, guid: d44e982f9b7d4864187d8db505d23244, type: 3}
+  audioSource: {fileID: 0}
 --- !u!70 &3650574456611917692
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -21,7 +21,10 @@ public class Player : MonoBehaviour
     public float slowDownTime;
     public float slowedDownPlayerSpeed;
     float defaultSpeed;
-    
+
+    public AudioClip runSound;
+    public AudioClip jumpSound;
+    public AudioSource audioSource;
     private void Awake()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
@@ -40,6 +43,7 @@ public class Player : MonoBehaviour
         if(value.isPressed && isGrounded)
         {
             anim.SetTrigger("jump");
+            audioSource.PlayOneShot(jumpSound);
             myRigidbody.velocity = Vector2.up * jumpSpeed;
         }
     }

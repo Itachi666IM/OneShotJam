@@ -229,6 +229,9 @@ MonoBehaviour:
   isTimeSlowed: 0
   slowDownTime: 2
   slowedDownPlayerSpeed: 10
+  runSound: {fileID: 8300000, guid: dd2c0472b1e504d4a8d8f25d7b18986d, type: 3}
+  jumpSound: {fileID: 8300000, guid: fc791dd5eec6c7b4e8e235e20138223d, type: 3}
+  audioSource: {fileID: 0}
 --- !u!114 &7890321825599717947
 MonoBehaviour:
   m_ObjectHideFlags: 0
