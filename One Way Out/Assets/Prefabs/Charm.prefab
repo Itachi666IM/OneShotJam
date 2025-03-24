@@ -92,6 +92,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7e492253839f24c82df4d405ad6936, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charmBarrier: {fileID: 0}
+  audioSource: {fileID: 0}
+  charmPickup: {fileID: 8300000, guid: 2d5bfe277160b41479b784f888cf99a1, type: 3}
+  barrierBreak: {fileID: 8300000, guid: e2471bee9273f354b930b21ac8113910, type: 3}
 --- !u!1 &6626961443237156340
 GameObject:
   m_ObjectHideFlags: 0

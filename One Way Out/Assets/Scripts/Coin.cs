@@ -5,6 +5,8 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     Player player;
+    public AudioClip coinPickup;
+    public AudioSource audioSource;
 
     private void Start()
     {
@@ -14,6 +16,7 @@ public class Coin : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
+            audioSource.PlayOneShot(coinPickup);
             player.isTimeSlowed = true;
             Destroy(gameObject);
         }

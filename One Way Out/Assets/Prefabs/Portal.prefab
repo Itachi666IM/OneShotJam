@@ -258,3 +258,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 098e5081069b84f43a5ed4144cecfde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  portalSound: {fileID: 8300000, guid: 0342a06266ad649499dd19576a381b10, type: 3}

@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class Portal : MonoBehaviour
 {
     Player player;
-
+    public AudioSource audioSource;
+    public AudioClip portalSound;
     private void Awake()
     {
         player = FindObjectOfType<Player>();
@@ -16,7 +17,13 @@ public class Portal : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            audioSource.PlayOneShot(portalSound);
+            Invoke(nameof(LoadNextScene), 0.5f);
         }
+    }
+
+    void LoadNextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
