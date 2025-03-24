@@ -15,7 +15,7 @@ TagManager:
   - Player
   - Ground
   - Interactables
-  - 
+  - Particles
   - 
   - 
   - 
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: Interactables
     uniqueID: 1399619565
+    locked: 0
+  - name: Particles
+    uniqueID: 3979671729
     locked: 0
   - name: Level Manager
     uniqueID: 630167127
