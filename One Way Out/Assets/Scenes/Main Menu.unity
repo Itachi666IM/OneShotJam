@@ -2470,7 +2470,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -2480,7 +2480,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 630167127
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1343996798
@@ -9154,11 +9154,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1170420848861149448, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.27892023
+      value: 0.27891937
       objectReference: {fileID: 0}
     - target: {fileID: 1170420848861149448, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.9603143
+      value: -0.9603146
       objectReference: {fileID: 0}
     - target: {fileID: 1285743475405983586, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9166,7 +9166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285743475405983586, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000086426695
+      value: -0.0000003278254
       objectReference: {fileID: 0}
     - target: {fileID: 2226241300650509033, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_Name
@@ -9226,11 +9226,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4986634739102417420, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9502173
+      value: 0.95021796
       objectReference: {fileID: 0}
     - target: {fileID: 4986634739102417420, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.31158802
+      value: -0.31158602
       objectReference: {fileID: 0}
     - target: {fileID: 7048102039775382447, guid: f4679b0beddb6e144bf2147de64d640f, type: 3}
       propertyPath: m_LocalRotation.w
