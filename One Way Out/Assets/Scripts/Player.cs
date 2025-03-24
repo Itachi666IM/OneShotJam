@@ -27,6 +27,7 @@ public class Player : MonoBehaviour
         myRigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         defaultSpeed = speed;
+        Time.timeScale = 1f;
     }
 
     void OnMove(InputValue value)
